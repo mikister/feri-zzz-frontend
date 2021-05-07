@@ -1,0 +1,17 @@
+{
+    "uni_mb": "Univerza v Mariboru",
+    "feri": {
+        "name": "Fakulteta za elektrotehniko, računalništvo in informatiko",
+        "address": "Koroška cesta 46, 2000 Maribor"
+    },
+    "project_leader": {
+        "project_leader": "Vodja Projekta",
+        "name": "Jernej Kranjec, mag. inž.",
+        "address": "Koroška cesta 46, 2000 Maribor, Kabinet G2-3N-59"
+    },
+    "links": {
+        "donations": "Donacije",
+        "contact": "Kontakt",
+        "socialsAlt": {}
+    }
+}

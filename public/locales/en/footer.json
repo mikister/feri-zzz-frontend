@@ -1,0 +1,22 @@
+{
+    "uni_mb": "University of Maribor",
+    "feri": {
+        "name": "Faculty of Electrical Engineering and Computer Science",
+        "address": "Koroška cesta 46, SI-2000 Maribor, SLOVENIA",
+        "email": "feri@um.si",
+        "phone": "+386 2 220 7000"
+    },
+    "project_leader": {
+        "project_leader": "Project Leader",
+        "name": "Jernej Kranjec, mag. inž.",
+        "address": "Koroška cesta 46, 2000 Maribor, Kabinet G2-3N-59",
+        "email": "jernej.kranjec@um.si",
+        "phone": "(02) 220 7491"
+    },
+    "links": {
+        "donations": "Donations",
+        "contact": "Contact",
+        "socialsAlt": {}
+    },
+    "copyright": "© zzz.feri.um.si 2018-{{currYear}}"
+}

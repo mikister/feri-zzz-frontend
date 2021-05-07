@@ -4,9 +4,3 @@
 
     font-size: 12px;
 }
-
-.lang_dropdown::after {
-    content: '▼';
-    font-size: 12px;
-    margin-left: 6px;
-}
