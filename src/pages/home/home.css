@@ -1,0 +1,13 @@
+.control_bar {
+    display: grid;
+    grid-template-columns: max-content auto max-content;
+    width: 100%;
+}
+
+.control_bar__left {
+    grid-column: 1 / span 1;
+}
+
+.control_bar__right {
+    grid-column: 3 / span 1;
+}

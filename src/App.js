@@ -3,11 +3,11 @@ import './App.css';
 
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
-import NotFoundPage from './pages/404';
-import AboutPage from './pages/about';
-import CollabPage from './pages/collab';
-import HomePage from './pages/home';
-import TimelinePage from './pages/timeline';
+import NotFoundPage from './pages/404/404';
+import AboutPage from './pages/about/about';
+import CollabPage from './pages/collab/collab';
+import HomePage from './pages/home/home';
+import TimelinePage from './pages/timeline/timeline';
 
 function App() {
     return (
