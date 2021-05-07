@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Source+Serif+Pro:wght@700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Source Serif Pro', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+body {
+    --rgb-zzz-blue: 11, 61, 145;
+    --rgb-zzz-cyan: 95, 180, 156;
+    --rgb-zzz-white: 254, 254, 254;
+    --rgb-zzz-black: 10, 10, 10;
+
+    --color-zzz-blue: rgb(var(--rgb-zzz-blue));
+    --color-zzz-cyan: rgb(var(--rgb-zzz-cyan));
+    --color-zzz-white: rgb(var(--rgb-zzz-white));
+    --color-zzz-black: rgb(var(--rgb-zzz-black));
+
+    --size-lang-dropdown: 40px;
+
+    min-height: 100vh;
+
+    font-family: 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+        'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+
+    color: var(--color-zzz-black);
+    background-color: var(--color-zzz-white);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}

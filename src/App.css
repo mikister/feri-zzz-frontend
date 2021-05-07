@@ -1,0 +1,15 @@
+.zzz {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    min-height: 100vh;
+}
+
+.zzz__contents {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+}

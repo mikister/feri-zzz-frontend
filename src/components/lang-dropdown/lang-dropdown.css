@@ -1,0 +1,12 @@
+.lang_dropdown {
+    width: var(--size-lang-dropdown);
+    max-width: var(--size-lang-dropdown);
+
+    font-size: 12px;
+}
+
+.lang_dropdown::after {
+    content: '▼';
+    font-size: 12px;
+    margin-left: 6px;
+}
