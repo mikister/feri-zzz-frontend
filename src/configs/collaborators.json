@@ -1,0 +1,33 @@
+{
+    "partners": [
+        {
+            "name": "FERI",
+            "desc": "Fakulteta za elektrotehniko, računalništvo in informatiko",
+            "groups": [
+                {
+                    "name": "RIT",
+                    "desc": "računalništvo in informatiko",
+                    "members": [
+                        {
+                            "name": "Student 1",
+                            "desc": "je student"
+                        },
+                        {
+                            "name": "Student 2",
+                            "desc": "je tud student"
+                        }
+                    ]
+                },
+                {
+                    "name": "ITK",
+                    "members": [
+                        {
+                            "name": "Ne"
+                        }
+                    ]
+                }
+            ]
+        },
+        { "name": "NASA", "members": [{ "name": "Bill Nye the Science Guy" }] }
+    ]
+}

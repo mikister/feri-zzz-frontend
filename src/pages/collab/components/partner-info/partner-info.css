@@ -1,0 +1,16 @@
+.partner-info:not(:first-child) {
+    margin-top: 2rem;
+}
+
+.partner-info h2,
+.partner-info h3 {
+    font-family: 'Source Serif Pro', serif;
+}
+
+.partner-info h3 {
+    margin-top: 2rem;
+}
+
+.partner-info h4 {
+    margin-bottom: 1rem;
+}
