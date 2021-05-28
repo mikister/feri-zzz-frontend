@@ -1,0 +1,13 @@
+.posts-timeline {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+
+    border-top: 2px rgba(var(--rgb-zzz-blue), 0.5) solid;
+    margin-top: 8px;
+}
+
+.posts-timeline > * {
+    margin-top: -8px;
+}

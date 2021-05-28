@@ -1,0 +1,20 @@
+.posts-node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.posts-node::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-zzz-cyan);
+    border-radius: 100%;
+    border: 2px var(--color-zzz-blue) solid;
+}
+
+.posts-node:hover::before {
+    background-color: var(--color-zzz-blue);
+}
