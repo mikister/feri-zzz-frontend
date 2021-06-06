@@ -1,5 +1,5 @@
 .partner-info:not(:first-child) {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .partner-info h2,
@@ -8,9 +8,9 @@
 }
 
 .partner-info h3 {
-    margin-top: 2rem;
+    margin-top: 1em;
 }
 
 .partner-info h4 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }

@@ -1,0 +1,17 @@
+{
+    "gen1": {
+        "desc": "First generation on the project"
+    },
+    "gen2": {
+        "desc": "Second generation on the project"
+    },
+    "gen3": {
+        "desc": "Third generation on the project",
+        "rit_hw": {
+            "desc": "computer science, project artificial intelligence"
+        },
+        "rit_sw": {
+            "desc": "computer science, project blockchain"
+        }
+    }
+}

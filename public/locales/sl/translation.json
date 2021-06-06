@@ -1,3 +1,5 @@
 {
-  "test": "Bok"
+    "errors": {
+        "page404": "Ta stran ne obstaja!"
+    }
 }

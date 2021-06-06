@@ -1,10 +1,10 @@
 {
-  "test": "Hello World",
-  "navbar": {
-    "home": "Home",
-    "about": "About",
-    "collab": "Collaborators",
-    "timeline": "Timeline",
-    "logoAlt": "Website logo."
-  }
+    "test": "Hello World",
+    "navbar": {
+        "home": "Home",
+        "about": "About Project",
+        "collab": "Collaborators",
+        "timeline": "Timeline",
+        "logoAlt": "Website logo."
+    }
 }

@@ -1,33 +1,47 @@
 {
     "partners": [
         {
-            "name": "FERI",
-            "desc": "Fakulteta za elektrotehniko, računalništvo in informatiko",
+            "name": "GEN 1",
+            "desc": "gen1.desc",
+            "groups": []
+        },
+        {
+            "name": "GEN 2",
+            "desc": "gen2.desc",
+            "groups": []
+        },
+        {
+            "name": "GEN 3",
+            "desc": "gen3.desc",
             "groups": [
                 {
-                    "name": "RIT",
-                    "desc": "računalništvo in informatiko",
+                    "name": "RIT - HW",
+                    "desc": "gen3.rit_hw.desc",
                     "members": [
                         {
-                            "name": "Student 1",
-                            "desc": "je student"
+                            "name": "Alen Granda"
                         },
                         {
-                            "name": "Student 2",
-                            "desc": "je tud student"
+                            "name": "Eva Pincin"
+                        },
+                        {
+                            "name": "Sandi Pečečnik"
                         }
                     ]
                 },
                 {
-                    "name": "ITK",
+                    "name": "RIT - SW",
+                    "desc": "gen3.rit_sw.desc",
                     "members": [
                         {
-                            "name": "Ne"
+                            "name": "Amer Mujagić"
+                        },
+                        {
+                            "name": "Milan Radojević"
                         }
                     ]
                 }
             ]
-        },
-        { "name": "NASA", "members": [{ "name": "Bill Nye the Science Guy" }] }
+        }
     ]
 }

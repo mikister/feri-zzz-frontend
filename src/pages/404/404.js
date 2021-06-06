@@ -1,7 +1,10 @@
 import { Fragment } from 'react';
+import { useTranslation } from 'react-i18next';
 
 function NotFoundPage() {
-    return <Fragment>NotFoundPage</Fragment>;
+    const { t } = useTranslation(['translation']);
+
+    return <Fragment>{t('errors.page404')}</Fragment>;
 }
 
 export default NotFoundPage;

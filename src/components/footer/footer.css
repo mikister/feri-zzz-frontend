@@ -28,6 +28,7 @@
 
 .footer__info__left {
     align-items: flex-end;
+    text-align: end;
 }
 
 .footer__info__middle {

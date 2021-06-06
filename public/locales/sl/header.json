@@ -1,9 +1,9 @@
 {
-  "navbar": {
-    "home": "Domov",
-    "about": "O Projektu",
-    "collab": "Sodelovalci",
-    "timeline": "Timeline",
-    "logoAlt": "Logotip spletne strani."
-  }
+    "navbar": {
+        "home": "Domov",
+        "about": "O Projektu",
+        "collab": "Sodelavci",
+        "timeline": "Razvoj",
+        "logoAlt": "Logotip spletne strani."
+    }
 }

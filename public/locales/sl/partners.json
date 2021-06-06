@@ -1,0 +1,17 @@
+{
+    "gen1": {
+        "desc": "Prva generacija pri sondi"
+    },
+    "gen2": {
+        "desc": "Druga generacija pri sondi"
+    },
+    "gen3": {
+        "desc": "Tretja generacija pri sondi",
+        "rit_hw": {
+            "desc": "računalništvo in informatiko, projekt umetna inteligencija"
+        },
+        "rit_sw": {
+            "desc": "računalništvo in informatiko, projekt blockchain"
+        }
+    }
+}

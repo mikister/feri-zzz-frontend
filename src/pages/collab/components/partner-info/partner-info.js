@@ -1,6 +1,10 @@
 import './partner-info.css';
 
+import { useTranslation } from 'react-i18next';
+
 function PartnerInfo({ name, desc, groups, members }) {
+    const { t } = useTranslation(['partners']);
+
     let memberList = null;
     let groupList = null;
 
@@ -9,8 +13,8 @@ function PartnerInfo({ name, desc, groups, members }) {
             <div>
                 {members.map((member, index) => (
                     <p key={index}>
-                        {member.name}
-                        {member.desc ? ' - ' + member.desc : ''}
+                        {t(member.name)}
+                        {member.desc ? ' - ' + t(member.desc) : ''}
                     </p>
                 ))}
             </div>
@@ -22,13 +26,13 @@ function PartnerInfo({ name, desc, groups, members }) {
             <div>
                 {groups.map((group, index) => (
                     <div key={index}>
-                        <h3>{group.name}</h3>
-                        {group.desc ? <h4>{group.desc}</h4> : null}
+                        <h3>{t(group.name)}</h3>
+                        {group.desc ? <h4>{t(group.desc)}</h4> : ''}
 
                         {group?.members.map((member, index) => (
                             <p key={index}>
-                                {member.name}
-                                {member.desc ? ' - ' + member.desc : null}
+                                {t(member.name)}
+                                {member.desc ? ' - ' + t(member.desc) : ''}
                             </p>
                         ))}
                     </div>
@@ -40,7 +44,7 @@ function PartnerInfo({ name, desc, groups, members }) {
     return (
         <div className="partner-info">
             <h2>{name}</h2>
-            {desc ? <h4>{desc}</h4> : null}
+            {desc ? <h4>{t(desc)}</h4> : ''}
             {memberList}
             {groupList}
         </div>

@@ -20,9 +20,9 @@ function Footer() {
                         <span>{t('links.contact')}</span>
                     </div>
                     <div className="footer__socials">
-                        <span>A</span>
+                        {/* <span>A</span>
                         <span>B</span>
-                        <span>C</span>
+                        <span>C</span> */}
                     </div>
                 </div>
                 <div className="footer__info__right">
