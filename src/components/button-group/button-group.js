@@ -1,10 +1,13 @@
+import { useTranslation } from 'react-i18next';
 import Button from '../button/button';
 import './button-group.css';
 
 function ButtonGroup({ options, selectedOptionIndex, onChange }) {
+    const { t } = useTranslation(['translation']);
+
     const onChangeHadler = (event) => {
         const optionIndex = event.target.dataset.optionIndex;
-        onChange(optionIndex);
+        onChange(parseInt(optionIndex));
     };
 
     return (
@@ -16,7 +19,7 @@ function ButtonGroup({ options, selectedOptionIndex, onChange }) {
                     onClick={onChangeHadler}
                     attributes={{ 'data-option-index': index }}
                 >
-                    {opt}
+                    {typeof opt === 'string' ? t(opt) : opt}
                 </Button>
             ))}
         </div>

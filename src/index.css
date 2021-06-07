@@ -21,7 +21,7 @@ body {
     --color-zzz-white: rgb(var(--rgb-zzz-white));
     --color-zzz-black: rgb(var(--rgb-zzz-black));
 
-    --size-lang-dropdown: 40px;
+    --size-lang-dropdown: 50px;
 
     min-height: 100vh;
 

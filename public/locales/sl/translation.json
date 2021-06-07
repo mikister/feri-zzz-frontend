@@ -1,5 +1,15 @@
 {
     "errors": {
         "page404": "Ta stran ne obstaja!"
+    },
+    "control_bar": {
+        "view": {
+            "overview": "Pregled",
+            "probe": "Sonda"
+        },
+        "layout": {
+            "listAlt": "Postavitev seznama",
+            "gridAlt": "Postavitev mreže"
+        }
     }
 }

@@ -1,5 +1,15 @@
 {
     "errors": {
         "page404": "That page does not exist!"
+    },
+    "control_bar": {
+        "view": {
+            "overview": "Overview",
+            "probe": "Probe"
+        },
+        "layout": {
+            "listAlt": "List layout",
+            "gridAlt": "Grid layout"
+        }
     }
 }
