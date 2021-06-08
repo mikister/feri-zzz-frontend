@@ -1,9 +1,10 @@
-FROM node:carbon as builder
+FROM node:alpine as builder
 WORKDIR /app
 COPY . .
+RUN npm install
 RUN npm run build
 
-FROM node:carbon
+FROM node:alpine
 RUN npm install -g serve
 WORKDIR /app
 COPY --from=builder /app/build .
