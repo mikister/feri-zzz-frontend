@@ -7,5 +7,5 @@ FROM node:carbon
 RUN npm install -g serve
 WORKDIR /app
 COPY --from=builder /app/build .
-EXPOSE 80
-CMD ["serve", "-l", "80", "-s", "."] 
+EXPOSE 5000
+CMD ["serve", "-l", "5000", "-s", "."] 
